@@ -17,27 +17,22 @@ function Header() {
         {
             "name": "Home",
             "url": "/",
-            "icon": "fas fa-hospital-alt"
+            "icon": "fas fa-home"
         },
         {
-            "name": "Subscriptions",
-            "url": "/subscriptions",
-            "icon": "fa fa-credit-card"
+            "name": "SEAP",
+            "url": "/seap",
+            "icon": "fa fa-bank"
         },
         {
-            "name": "Test yourself",
-            "url": "/test-yourself",
-            "icon": "fas fa-user-graduate"
+            "name": "Invoices",
+            "url": "/invoices",
+            "icon": "fas fa-file"
         },
         {
-            "name": "Courses",
-            "url": "/courses",
-            "icon": "fas fa-book"
-        },
-        {
-            "name": "Exams",
-            "url": "/exams",
-            "icon": "fas fa-file-alt"
+            "name": "Other documents",
+            "url": "/documents",
+            "icon": "fas fa-briefcase"
         },
         {
             "name": "Admin",

@@ -4,10 +4,7 @@ import './config/i18n';
 
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home"
-import Subscriptions from "./pages/Subscriptions"
-import Exams from "./pages/Exams"
-import Admin from "./pages/Admin"
-import AdminExamStage from "./pages/AdminExamStage"
+import Invoices from "./pages/Invoices"
 import NotFound from "./pages/NotFound"
 import Login from "./pages/Login"
 import ProtectedRoute from "./components/ProtectedRoutes"
@@ -139,23 +136,9 @@ function Main() {
             path: '/',
             element: <Home subscribeButton={subscribe} />
         },
-        'subscriptions': {
-            path: '/subscriptions',
-            element: <Subscriptions />
-        },
-        'exams': {
-            path: '/exams',
-            element: <Exams />
-        },
-        'admin': {
-            path: '/admin',
-            element: <Admin />,
-            isAdmin: true
-        },
-        'admin-exams-stage': {
-            path: '/admin/exams/stage',
-            element: <AdminExamStage />,
-            isAdmin: true
+        'invoices': {
+            path: '/invoices',
+            element: <Invoices />
         },
         'not-found': {
             path: '*',

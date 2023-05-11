@@ -82,10 +82,10 @@ function Home() {
         <section className="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
             <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
                 <h1 className="mt-48 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                    rezidentiat-medicina.ro
+                    factura.dddtop.ro
                 </h1>
                 <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-                    {t("Acest site este dedicat rezidentilor de medicina si a celor care doresc sa devina medicin rezidenti. Aici gasiti informatii despre desfasurarea examenului de rezidentiat si nu numai.")}
+                    {t("Acest site este destinat exclusiv utilizatorilor inregistrati. Pentru a accesa aplicatia, va rugam sa va autentificati.")}
                 </p>
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <h1 className="text-center text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
